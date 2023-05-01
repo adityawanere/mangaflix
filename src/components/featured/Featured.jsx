@@ -42,7 +42,7 @@ const Featured = ({ type }) => {
         </span>
 
         <div className="buttons">
-          <button className="play">
+          <button className="playBtn">
             <PlayArrow />
             <span>Play</span>
           </button>

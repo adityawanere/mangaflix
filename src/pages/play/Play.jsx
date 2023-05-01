@@ -9,10 +9,11 @@ const Play = () => {
       </div>
       <video
         className="video"
-        autoplay
+        autoPlay
+        muted
         progress
         controls
-        src="https://cdn.pixabay.com/vimeo/636709154/skyscrapers-91744.mp4?width=2560&expiry=1676490026&hash=bd5781b2410a9b8ead93e4d7e85422b03bf5ccc6"
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
       />
     </div>
   );
