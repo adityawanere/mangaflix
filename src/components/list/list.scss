@@ -1,7 +1,6 @@
 .list {
   width: 100%;
   margin-top: 10px;
-  overflow: hidden;
 
   .listTitle {
     color: white;
@@ -38,7 +37,7 @@
       margin-top: 10px;
       width: max-content;
       transform: translateX(0px);
-      transition: 1s all ease;
+      transition: all 1s ease;
     }
   }
 }
